@@ -14,13 +14,13 @@ artist_repository.save(artist_1)
 artist_2 = Artist("David Bowie")
 artist_repository.save(artist_2)
 
-album_1 = Album("Pretty Hate Machine", "Industrial Pop-Rock",)
+album_1 = Album("Pretty Hate Machine", "Industrial Pop-Rock", "NIN")
 album_repository.save(album_1)
-album_2 = Album("Broken", "Alt-Metal")
+album_2 = Album("Broken", "Alt-Metal", "NIN")
 album_repository.save(album_2)
-album_3 = Album("Hunky Dory", "Rock")
+album_3 = Album("Hunky Dory", "Rock", "David Bowie")
 album_repository.save(album_3)
-album_4 = Album("The Next Day", "Rock")
+album_4 = Album("The Next Day", "Rock", "David Bowie")
 album_repository.save(album_4)
 
 

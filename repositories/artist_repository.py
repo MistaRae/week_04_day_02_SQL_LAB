@@ -29,7 +29,7 @@ def select_albums(artist):
     sql = "SELECT * FROM albums WHERE artist_id = (%s)"
     values = [id]
     albums_found = run_sql(sql, values) 
-# albumbs found is raw data that comes back from database
+# albums found is raw data that comes back from database
     for row in albums_found:
         artist = Artist(row['name'])
         album = Album(row['title'], row['genre'], artist)
